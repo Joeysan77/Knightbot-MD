@@ -9,6 +9,7 @@ process.env.TMPDIR = customTemp;
 process.env.TEMP = customTemp;
 process.env.TMP = customTemp;
 
+
 // Auto-cleaner every 3 hours
 setInterval(() => {
     fs.readdir(customTemp, (err, files) => {
